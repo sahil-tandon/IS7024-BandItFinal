@@ -1,0 +1,33 @@
+﻿body {
+    background-color: white;
+    color: black;
+}
+
+.noprint{
+    display: none!important;
+}
+
+img{
+    display:none;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.right {
+    right: 40px;
+    width: 301px;
+    padding: 4px;
+    padding-top: 90px;
+}
+
+.para {
+    max-width: 1250px;
+    margin-left: 50px;
+    padding: 25px;
+}
+
+.para_div {
+    padding-top: 100px;
+}

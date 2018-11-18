@@ -1,0 +1,7 @@
+c:\users\hasna\source\repos\Assignment1\Assignment1\bin\Assignment1.dll.config
+c:\users\hasna\source\repos\Assignment1\Assignment1\bin\Assignment1.dll
+c:\users\hasna\source\repos\Assignment1\Assignment1\bin\Assignment1.pdb
+c:\users\hasna\source\repos\Assignment1\Assignment1\obj\Debug\Assignment1.csprojAssemblyReference.cache
+c:\users\hasna\source\repos\Assignment1\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+c:\users\hasna\source\repos\Assignment1\Assignment1\obj\Debug\Assignment1.dll
+c:\users\hasna\source\repos\Assignment1\Assignment1\obj\Debug\Assignment1.pdb

@@ -1,0 +1,32 @@
+﻿body {
+    background: linear-gradient(to right, #fffbfb, #795e5e); 
+    padding: 0;
+    margin: 0;
+}
+
+#topnav {
+    background: linear-gradient(to right, #000000, #434343);
+    color:navajowhite;
+}
+
+a{
+    color: blue;
+}
+
+.para {
+    max-width: 550px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.para_div {
+    padding-top: 110px;
+}
+
+.right {
+    position: absolute;
+    right: 40px;
+    width: 301px;
+    padding: 4px;
+    padding-top: 90px;
+}

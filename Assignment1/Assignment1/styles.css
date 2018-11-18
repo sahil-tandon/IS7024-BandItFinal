@@ -1,0 +1,58 @@
+﻿body {
+    background: linear-gradient(to right, #ffffff, #ffffff);
+    color: black;
+    font-weight: normal;
+    padding: 0;
+    margin: 0;
+}
+
+.image {
+    -ms-align-content: inherit;
+    -webkit-align-content: inherit;
+    
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+    padding-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    line-height: 1;
+    margin: 30.5px 0 !important;
+    vertical-align: top;
+}
+
+.para {
+    max-width: 1250px;
+    margin-left: 50px;
+    padding: 25px;
+}
+
+.para_div {
+    padding-top: 100px;
+}
+
+
+
+#topnav {
+    overflow: hidden;
+    height: 110px;
+    position: fixed;
+    text-align: center;
+    z-index: 99;
+    background: linear-gradient(to right, #0e0d0e, #da8b8b, #24243e);
+    left: 0;
+    right: 0;
+}
+
+a {
+    color: blue;
+}
