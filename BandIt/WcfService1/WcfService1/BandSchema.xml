@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BandsCollection>
+  <Bands>
+    <Band>
+      <BandName>AC-DC</BandName>
+      <Members>Angus Young, Chris Slade, Stevie Young and Axl Rose</Members>
+      <Genre>Rock</Genre>
+      <Website>www.acdc.com</Website>
+      <Origin>Australia</Origin>
+      <DateFounded>1973</DateFounded>
+    </Band>
+    <Band>
+      <BandName>AC-DC</BandName>
+      <Members>Angus Young, Chris Slade, Stevie Young and Axl Rose</Members>
+      <Genre>Rock</Genre>
+      <Website>www.acdc.com</Website>
+      <Origin>Australia</Origin>
+      <DateFounded>1973</DateFounded>
+    </Band>
+  </Bands>
+</BandsCollection>
