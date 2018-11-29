@@ -17,8 +17,8 @@ namespace WcfService1
             BandsCollection bands = null;
 
             XmlSerializer serializer = new XmlSerializer(typeof(BandsCollection));
-
-            StreamReader reader = new StreamReader("\\Users\\hasna\\IS7024\\BandIt\\WcfService1\\WcfService1\\BandSchema.xml");
+            //This part is hardcoded.Which leads to page throwing "Server Error in '/' Application." Error"
+            StreamReader reader = new StreamReader("D:\\UC\\Flex2\\XML\\IS7024\\BandIt\\WcfService1\\WcfService1\\BandSchema.xml");
             bands = (BandsCollection)serializer.Deserialize(reader);
       
             reader.Close();
