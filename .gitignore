@@ -275,3 +275,4 @@ Session.vim
 # Private test configuration and binaries.
 config.ps1
 **/IISApplications
+BandIt/WcfService1/.vs/WcfService1/v15/Server/sqlite3/storage.ide-shm
