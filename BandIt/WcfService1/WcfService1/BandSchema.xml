@@ -4,12 +4,98 @@
     <Band>
       <BandName>AC-DC</BandName>
       <Members>Angus Young, Chris Slade, Stevie Young and Axl Rose</Members>
+      <BandName>Black Sabbath</BandName>
+      <Members>Ozzy Osbourne, Geezer Butler, Tony Iommi and Bill Ward</Members>
+      <Genre>Heavy Metal</Genre>
+      <Website>www.blacksabbath.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1968</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Coldplay</BandName>
+      <Members>Chris Martin, Jonny Buckland, Guy Berryman, Will Champion and Phil Harvey</Members>
+      <Genre>Alternative Rock</Genre>
+      <Website>www.coldplay.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1996</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Eagles</BandName>
+      <Members>Chris Martin, Jonny Buckland, Guy Berryman, Will Champion and Phil Harvey</Members>
+      <Genre>Alternative Rock</Genre>
+      <Website>www.eagles.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1996</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Gojira</BandName>
+      <Members>Christian Andreu, Joe Duplantier, Mario Duplantier and Jean-Michel Labadie</Members>
+      <Genre>Progressive Metal</Genre>
+      <Website>www.gojira-music.com</Website>
+      <Origin>France</Origin>
+      <DateFounded>1996</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Led Zeppelin</BandName>
+      <Members>Jimmy Page, Robert Plant, John Paul Jones and John Bonham</Members>
+      <Genre>Progressive Metal</Genre>
+      <Website>www.ledzeppelin.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1968</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Gojira</BandName>
+      <Members>Christian Andreu, Joe Duplantier, Mario Duplantier and Jean-Michel Labadie</Members>
+      <Genre>Progressive Metal</Genre>
+      <Website>www.gojira-music.com</Website>
+      <Origin>France</Origin>
+      <DateFounded>1996</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Metallica</BandName>
+      <Members>James Hetfield, Kirk Hammet, Lars Ulrich and Robert Trujillo</Members>
+      <Genre>Heavy Metal/Thrash Metal</Genre>
+      <Website>www.metallica.com</Website>
+      <Origin>United States</Origin>
+      <DateFounded>1981</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Nirvana</BandName>
+      <Members>Kurt Cobain, Krist Novoselic, Dave Grohl and Pat Smears</Members>
+      <Genre>Alternative Rock, Grunge</Genre>
+      <Website>www.nirvana.com</Website>
+      <Origin>United States</Origin>
+      <DateFounded>1987</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Pink Floyd</BandName>
+      <Members>David Gilmour, Roger Waters, Syd Barrett, Richard Wright and Nick Mason</Members>
+      <Genre>Progressive Rock</Genre>
+      <Website>www.pinkfloyd.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1965</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Porcupine Tree</BandName>
+      <Members>Steven Wilson, Richard Barbieri, Colin Edwin and Gavin Harrison</Members>
+      <Genre>Progressive Rock</Genre>
+      <Website>www.porcupinetree.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1987</DateFounded>
+    </Band>
+    <Band>
+      <BandName>Queen</BandName>
+      <Members>Freddie Mercury, Brian May and Roger Taylor</Members>
       <Genre>Rock</Genre>
       <Website>www.acdc.com</Website>
       <Origin>Australia</Origin>
       <DateFounded>1973</DateFounded>
+      <Website>www.queenonline.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1970</DateFounded>
     </Band>
     <Band>
+<<<<<<< Updated upstream
       <BandName>Black Sabbath</BandName>
       <Members>Ozzy Osbourne, Geezer Butler, Tony Iommi and Bill Ward</Members>
       <Genre>Heavy Metal</Genre>
@@ -133,6 +219,43 @@
       <BandName>The Rolling Stones</BandName>
       <Members>Mick Jagger, Keith Richards, Charlie Watts and Ronnie Wood</Members>
       <Genre>Rock</Genre>
+=======
+      <BandName>Red Hot Chili Peppers</BandName>
+      <Members>Anthony Keidis, Flea, Chad Smith and Josh Klinghoffer</Members>
+      <Genre>Alternative Rock</Genre>
+      <Website>www.redhotchilipeppers.com</Website>
+      <Origin>United States</Origin>
+      <DateFounded>1983</DateFounded>
+    </Band>
+    <Band>
+      <BandName>System of a Down</BandName>
+      <Members>Serj Tankian, Daron Malakian, Shavo Odadjian and John Dolmayan</Members>
+      <Genre>Alternative Rock</Genre>
+      <Website>www.systemofadown.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1994</DateFounded>
+    </Band>
+    <Band>
+      <BandName>The Beatles</BandName>
+      <Members>Paul McCartney, John Lennon, George Harrison and Ringo Starr</Members>
+      <Genre>Rock, Pop</Genre>
+      <Website>www.thebeatles.com</Website>
+      <Origin>England</Origin>
+      <DateFounded>1960</DateFounded>
+    </Band>
+    <Band>
+      <BandName>The Doors</BandName>
+      <Members>Jim Morrison, Ray Manzarek, Robby Krieger and John Densmore</Members>
+      <Genre>Blues Rock</Genre>
+      <Website>www.thedoors.com</Website>
+      <Origin>United States</Origin>
+      <DateFounded>1965</DateFounded>
+    </Band>
+    <Band>
+      <BandName>The Rolling Stones</BandName>
+      <Members>Mick Jagger, Keith Richards, Charlie Watts and Ronnie Wood</Members>
+      <Genre>Rock</Genre>
+>>>>>>> Stashed changes
       <Website>www.rollingstones.com</Website>
       <Origin>England</Origin>
       <DateFounded>1962</DateFounded>
