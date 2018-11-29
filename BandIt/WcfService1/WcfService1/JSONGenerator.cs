@@ -20,9 +20,7 @@ namespace WcfService1
 
             StreamReader reader = new StreamReader(path);
             bands = (BandsCollection)serializer.Deserialize(reader);
-
-            
-
+      
             reader.Close();
 
 
