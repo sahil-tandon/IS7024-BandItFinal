@@ -5,12 +5,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head runat="server">
         <title>
-
         </title>
+        <link rel="stylesheet" href="site.css" type="text/css"/>
+        <script>
+            var bands = <%= bandJson %>;
+
+        </script>
     </head>
     <body>   
         <div class="band-listing">
         <div class="container">
+
             <h1 class="custom-head">OUR BAND LINEUP..</h1>
 
             <form id="searchForm" runat="server" class="search-form clear-fix">

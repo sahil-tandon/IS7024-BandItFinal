@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,21 +10,20 @@ namespace WcfService1
 {
     public class JSONGenerator
     {
-        public string generateBandJSON() {
+        public static string generateBandJSON() {
 
             string bandJson = "";
 
             BandsCollection bands = null;
-            string path = "BandSchema.xml";
 
             XmlSerializer serializer = new XmlSerializer(typeof(BandsCollection));
 
-            StreamReader reader = new StreamReader(path);
+            StreamReader reader = new StreamReader("\\Users\\hasna\\IS7024\\BandIt\\WcfService1\\WcfService1\\BandSchema.xml");
             bands = (BandsCollection)serializer.Deserialize(reader);
       
             reader.Close();
 
-
+            bandJson = JsonConvert.SerializeObject(bands);
 
             return bandJson;
         }

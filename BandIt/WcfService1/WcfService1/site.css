@@ -1,0 +1,580 @@
+/* Global */
+body {
+    padding-top: 90px;
+    transition: padding-top 0.4s ease-in-out;
+    background: linear-gradient(to right, #8e9eab, #eef2f3);    
+}
+body.collapsed {
+    padding-top: 50px;
+}
+.clear-fix:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+.body-content {
+    font-size: 12px;
+    font-family: Tahoma, Geneva, sans-serif;
+    letter-spacing: 0.05em;
+}
+.custom-head {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 0.05em;
+}
+.carousel-inner > .item > img {
+    height: 600px;
+    object-fit: cover;
+    width: 100%;
+    object-position: top;
+}
+hr {
+    margin: 40px 0;
+    border-color: #000;
+}
+footer {
+    padding: 50px 0 ;
+    text-align: center;
+}
+footer p {
+    margin-bottom: 0;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    background: #000;
+    z-index: 999;
+    text-align: center;
+    transition: height 0.4s ease-in-out;
+}
+.header-left {
+    float: left;
+    margin: 35px 0;
+    transition: margin 0.4s ease-in-out;
+}
+.header-right {    
+    float: right;
+    margin: 35px 0;
+    transition: margin 0.4s ease-in-out;
+}
+.header a {    
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    padding: 0 15px;
+    transition: color 0.4s ease-in-out;
+}
+.header-left a:hover {
+    color: #1499D7;
+}
+.header-right a:hover {
+    color: #f22613;
+}
+.header-left a:first-of-type {
+    padding-left: 0;
+}
+.header-right a:last-of-type {
+    padding-right: 0;
+}
+.header-logo,
+.header-logo a {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header-logo img {
+    width: 120px;
+    margin: 11.5px 0;
+    object-fit: cover;
+    object-position: bottom;
+    height: 67px;
+    transition: height 0.4s ease-in-out;
+}
+.header.collapsed {
+    height: 50px;
+}
+.header.collapsed .header-left,
+.header.collapsed .header-right {
+    margin: 15px 0;
+}
+.header.collapsed .header-logo img {
+    height: 17px;
+    margin: 16.5px 0;
+}
+
+/* Home Page */
+.our-bands {
+    padding: 50px 0;
+    text-align: center;
+}
+.our-bands-copy {
+    font-size: 24px;
+    font-style: italic;
+    color: #555;
+}
+.our-bands-list {
+    padding-top: 40px;
+}
+.our-band,
+.see-all {
+    width: calc(100%/5);
+    float: left;
+    text-align: center;
+}
+.our-band img {
+    width: 100%;
+    padding: 15px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.our-band-name {
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+}
+.see-all a {
+    display: inline-block;    
+    background: #1499D7;
+    border-radius: 50%;
+    transition: background 0.4s ease-in-out;
+    width: 203px;
+    height: 203px;
+    color: white;    
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 203px;
+    margin: 15px;
+    letter-spacing: 0.10em;
+}
+.see-all a:hover,
+.see-all a:focus {    
+    background: #f22613;
+    text-decoration: none;
+}
+.about-us {
+    padding: 50px 0;
+    text-align: center;
+}
+.about-head {
+    font-size: 24px;
+    font-weight: bold;
+}
+.about-copy {
+    font-size: 18px;
+    color: #555;
+    padding: 10px 0;    
+}
+.about-detail {
+    padding-top: 20px;
+}
+.about-item {
+    width: 25%;
+    padding: 25px;
+    float: left;
+}
+.about-icon {
+    width: 70px;
+}
+.about-title {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+.about-description {
+    font-size: 14px;
+    color: #555;
+    text-align: justify;
+    padding-top: 10px;
+}
+
+/* Band Listing Page */
+.band-tile {
+    width: calc((100% - 120px)/3);
+    float: left;
+    margin: 10px 30px;
+    border: 1px solid black;
+    background: #000;
+    border-radius: 12px;
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.4);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.band-tile:hover {
+    box-shadow: 6px 6px 12px 2px rgba(0,0,0,0.5);
+}
+.band-tile:nth-of-type(3n) {
+    margin-right: 0;
+}
+.band-tile:nth-of-type(3n+1) {
+    margin-left: 0;
+}
+.band-image {
+    width: calc(100% - 30px);
+    border: 2px solid #96281b;
+    margin: 15px 15px 0 15px;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.band-label {
+    color: #96281b;
+}
+.band-info {
+    padding: 15px;
+}
+.band-info p {
+    margin: 0;
+    padding: 2px 0;
+    text-align: center;
+    color: #ccc;
+    font-weight: bold;
+}
+.band-info .band-name {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #f7ca18;
+}
+.band-songs a {
+    color: #ccc;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0 0px 0;
+}
+.band-songs a:hover,
+.band-songs a:focus {
+    color: #ccc;
+    text-decoration: none;
+}
+
+/* Manager Listing */
+.contact-card {
+    width: calc(50% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    background: #000;
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.4);
+    transition: box-shadow 0.2s ease-in-out;
+}
+.contact-card:hover {
+    box-shadow: 6px 6px 12px 2px rgba(0,0,0,0.5);
+}
+.contact-card:nth-of-type(2n+1) {
+    float: left;    
+}
+.contact-card:nth-of-type(2n+2) {
+    float: right;    
+}
+.contact-image {
+    width: 40%;
+    float: left;
+    height: 219.2px;
+    object-fit: cover;
+    object-position: top;
+}
+.contact-info {
+    width: 60%;
+    float: right;
+    padding: 18.5px 25px;
+    font-size: 14px;
+    color: #f22613;
+}
+.contact-info .contact-label {
+    color: #1499D7;
+}
+.contact-name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.10em;
+}
+
+/* Concert Listing */
+.concert-ticket {
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.3));
+    margin-bottom: 40px;
+}
+.ticket-head {
+    text-align: center;
+    padding: 5px 0 0 0;
+    line-height: 1.1;
+    background: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.ticket-concert {
+    font-size: 18px;
+    padding: 5px 0;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0;
+}
+.ticket-band {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 0 0 5px 0;
+}
+.ticket-art img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.ticket-footer-details {
+    background: #fff;
+}
+.ticket-venue,
+.ticket-date {
+    font-size: 16px;
+    padding: 10px 20px 0px 20px;
+    font-weight: bold;
+    margin: 0;
+    float: left;
+}
+.ticket-date {
+    float: right;
+}
+.ticket-nudge {
+    height: 20px;
+    margin: 0 10px;
+    background-image: url(../images/icons/ellipsis.png);
+    background-size: 4px 2px;
+    background-repeat: repeat-x;
+    background-position: center;
+    position: relative;
+    box-shadow: 0 1px 0 0 #fff, 0 -1px 0 0 #fff;
+    background-color: #fff;
+}
+.ticket-nudge:before,
+.ticket-nudge:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    border: 5px solid transparent;
+    border-top-color: #fff;
+    border-right-color: #fff;
+    border-radius: 100%;
+    pointer-events: none;
+}
+.ticket-nudge:before {
+    left: -10px;
+}
+.ticket-nudge:after {
+    transform: translate(-50%, -50%) rotate(225deg);
+    right: -40px;
+}
+.ticket-detail {
+    height: 50px;
+    position: relative;
+    background: #fff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.ticket-barcode {
+    position: absolute;
+    width: 200px;
+    height: 36px;
+    background-image: url(../images/icons/barcode.png);
+    background-repeat: repeat;
+    background-size: contain;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.ticket-price {
+    position: absolute;    
+    font-weight: bold;
+    font-size: 18px;
+    margin: 0;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Song Listing */
+.song-listing table {
+    text-transform: capitalize;
+}
+.song-listing table tr {    
+    transition: all 0.2s ease-in-out;
+}
+.song-listing table th {
+    border-width: 3px!important;
+}
+.song-listing table th,
+.song-listing table td {
+    border-color: #000!important;
+}
+.song-listing table tbody tr:hover a {
+    color: black;
+}
+.song-listing table thead tr {
+    font-size: 15px;
+}
+.song-listing a {
+    color: #000;
+    text-decoration: underline;
+}
+.song-listing a:hover,
+.song-listing a:focus {
+    color: #000;
+}
+
+/* Search */
+.search-form {
+    margin-top: 40px!important;    
+}
+.song-listing .search-form {
+    margin-bottom: 20px;
+}
+.search-form label {
+    font-size: 14px;
+    color: #000;
+}
+.search-bar {
+    width: calc(100% - 145px);
+    float: left;
+}
+.search-btn {
+    width: 125px;
+    float: right;
+    margin: 24px 0;
+    text-align: right;
+}
+.song-listing .search-btn {
+    margin: 0;
+}
+.search-btn .btn {
+    width: 125px;
+}
+
+/* Admin Page */
+.admin-items {
+    margin-top: 40px;
+    padding: 0 0 0 15px;
+}
+.admin-items li {
+    padding: 5px 0;
+}
+.admin-items a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: underline;
+}
+.admin-items a:hover,
+.admin-items a:focus {
+    color: #000;
+}
+.update-manager {
+    font-size: 16px;
+    font-weight: bold;    
+}
+#update-form {
+    margin-top: 30px!important;
+}
+#update-form label {
+    font-size: 14px;
+    margin-top: 15px;
+}
+#update-form select {
+    margin: 10px 0;
+}
+#update-form .btn {
+    margin-top: 15px;
+}
+
+/* Contact Us */
+.contact-us-tile {
+    width: 25%;
+    float: left;
+    border: 1px solid;
+    background: #fafafa;
+    margin: 50px 10% 0 15%;
+    box-shadow: 3px 3px 10px 2px rgba(0,0,0,0.4);
+    transition: box-shadow 0.3s ease-in-out;
+    border-radius: 4px;
+}
+.contact-us-tile:hover {
+    box-shadow: 6px 6px 12px 2px rgba(0,0,0,0.5);
+}
+.contact-us-image {
+    width: 100%;
+    padding: 10px;
+}
+.contact-us-tile:last-of-type {
+    float: right;
+    margin: 50px 15% 0 10%;
+}
+.contact-us-info {
+    padding: 0 10px;
+}
+.contact-us-info p {
+    margin: 0;
+    padding: 5px 0;
+    line-height: 1;
+    font-size: 14px;
+}
+.contact-us-name {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.contact-us-designation {
+    font-weight: bold;
+}
+.contact-us-location {
+    padding: 2px 0;
+}
+.contact-us-email {
+    padding: 0px 0 10px 0;
+    display: inline-block;
+}
+.contact-us-phone {
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+/* Help Page */
+.help-copy {
+    font-size: 16px;
+    margin: 60px 0 30px 0;
+}
+.help-items {
+    margin-bottom: 150px;
+}
+.help-items li {
+    font-size: 16px;
+    padding: 5px 0;
+}
