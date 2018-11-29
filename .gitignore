@@ -276,3 +276,5 @@ Session.vim
 config.ps1
 **/IISApplications
 BandIt/WcfService1/.vs/WcfService1/v15/Server/sqlite3/storage.ide-shm
+*.ide-wal
+BandIt/WcfService1/.vs/WcfService1/v15/.suo
