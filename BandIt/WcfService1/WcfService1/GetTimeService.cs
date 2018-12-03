@@ -14,7 +14,7 @@ namespace WcfService1
             var request = new RestRequest("maps/api/timezone/json", Method.GET);
             request.AddParameter("location", latitude + "," + longitude);
             request.AddParameter("timestamp", utcDate.ToTimestamp());
-            request.AddParameter("key", "AIzaSyAY-RRKF31Eu4Lo2yBWe5BUGVHTOrKVSQY");
+            request.AddParameter("key", "AIzaSyBCohEjjyh-Qqkc6ytdjQLGufEf-KxMkqc");
             var response = client.Execute<GoogleTimeZone>(request);
 
             return utcDate.AddSeconds(response.Data.rawOffset + response.Data.dstOffset);
