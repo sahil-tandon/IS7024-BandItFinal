@@ -18,7 +18,7 @@ namespace WcfService1
 
             XmlSerializer serializer = new XmlSerializer(typeof(BandsCollection));
 
-            StreamReader reader = new StreamReader("\\Users\\hasna\\IS7024\\BandIt\\WcfService1\\WcfService1\\BandSchema.xml");
+            StreamReader reader = new StreamReader("BandSchema.xml");
             bands = (BandsCollection)serializer.Deserialize(reader);
       
             reader.Close();
