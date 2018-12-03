@@ -278,3 +278,7 @@ config.ps1
 BandIt/WcfService1/.vs/WcfService1/v15/Server/sqlite3/storage.ide-shm
 *.ide-wal
 BandIt/WcfService1/.vs/WcfService1/v15/.suo
+*.config
+*.ide-shm
+*.ide-wal
+*.cache
