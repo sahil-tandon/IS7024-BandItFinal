@@ -22,5 +22,25 @@ namespace WcfService1
             return JsonConvert.SerializeObject(searchResults);
 
         }
+
+        public static string SearchBands(string searchString)
+        {
+
+            BandsCollection bands = JsonConvert.DeserializeObject<BandsCollection>(JSONGenerator.generateBandJSON());
+            List<BandJSON> searchResults = new List<BandJSON>();
+            foreach (BandJSON band in bands.band)
+            {
+                if (CaseContains(band.BandName, searchString, StringComparison.CurrentCultureIgnoreCase))
+                    searchResults.Add(band);
+            }
+            BandsCollection result = new BandsCollection();
+            result.band = searchResults;
+            return JsonConvert.SerializeObject(result);
+
+        }
+        public static bool CaseContains(string baseString, string textToSearch, StringComparison comparisonMode)
+        {
+            return (baseString.IndexOf(textToSearch, comparisonMode) != -1);
+        }
     }
 }
