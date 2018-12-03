@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="site.css" type="text/css"/>
     <link rel="stylesheet" href="css/print.css" type="text/css" media="print"/>
-    <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)"/>    
+    <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)"/> 
+    <script>var songs = <%= songJson %>;</script>
 </head>
 <body>    
         <nav class="header">
