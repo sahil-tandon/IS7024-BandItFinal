@@ -59,7 +59,7 @@ namespace WcfService1
     {
         [XmlArray("Bands")]
         [XmlArrayItem("Band", typeof(BandJSON))]
-        public BandJSON[] band { get; set; }
+        public List<BandJSON> band { get; set; }
     }
 
     [Serializable()]

@@ -19,5 +19,13 @@ namespace WcfService1
             else
                 songJson = JSONGenerator.generateSongJSON();
         }
+
+        protected void SearchSongs_Click(object sender, EventArgs e)
+        {
+            if(SearchText.Text != "" && SearchText.Text !=null)
+                songJson = SearchUtility.SearchSongs(SearchText.Text);
+            else
+                songJson = JSONGenerator.generateSongJSON();
+        }
     }
 }

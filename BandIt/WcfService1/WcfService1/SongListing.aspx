@@ -9,6 +9,10 @@
     <script>var songs = <%= songJson %>;</script>
 </head>
 <body>
-
+    <form id="form1" runat="server">
+        <asp:textbox runat="server" ID="SearchText"></asp:textbox>
+        <asp:Button ID="SearchSongs" runat="server" Text="Search" OnClick="SearchSongs_Click" />
+    </form>
 </body>
 </html>
+
