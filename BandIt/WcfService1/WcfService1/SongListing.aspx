@@ -11,11 +11,7 @@
         <script>var songs = <%= songJson %>;</script>
         <script type="text/javascript" src="js/app.js"></script>
 </head>
-<body>
-    <form id="form1" runat="server">
-        <asp:textbox runat="server" ID="SearchText"></asp:textbox>
-        <asp:Button ID="SearchSongs" runat="server" Text="Search" OnClick="SearchSongs_Click" />
-    </form>
+<body>    
         <nav class="header">
             <div class="container">
                 <div class="header-left">
@@ -32,17 +28,26 @@
         <div class="body-content song-listing">
             <div class="container">
                 <h1 class="custom-head">MUSIC LIBRARY..</h1>
+                <form id="form1" runat="server" class="search-form clear-fix">
+                    <div class="form-group search-bar">
+                        <asp:textbox runat="server" ID="SearchText" placeholder="Enter Song Name to Search" CssClass="form-control"></asp:textbox>                        
+                    </div>
+                    <div class="form-group search-btn">
+                        <asp:Button ID="SearchSongs" runat="server" Text="Search" OnClick="SearchSongs_Click" CssClass="btn btn-default" />                        
+                    </div>                        
+                </form>                
                 <table class="table table-hover">
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                        <th>Duration</th>
-                        <th>Rating</th>
-                        <th>Artist Name</th>
-                    </tr>
-                </thead>
-                <tbody>
-                </tbody>
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Duration</th>
+                            <th>Rating</th>
+                            <th>Artist Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
             </div>
         </div>    
 </body>
