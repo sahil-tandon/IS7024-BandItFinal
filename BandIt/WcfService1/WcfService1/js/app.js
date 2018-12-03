@@ -15,7 +15,7 @@ $(document).ready(function(){
     	    var bandTile = "<div class='band-tile'>"+
     						    "<img src='images/bands/"+ bands.band[0].ImagePath +"' class='band-image'>"+
     						    "<div class='band-info'>"+
-    							    "<p class='name'>"+ bands.band[i].BandName +"</p>"+
+    							    "<p class='band-name'>"+ bands.band[i].BandName +"</p>"+
     							    "<p class='band-genre'><span class='band-label'>Genre: </span>"+ bands.band[i].Genre +"</p>"+
 				                    "<p class='band-origin'><span class='band-label'>Origin: </span>"+ bands.band[i].Origin +"</p>"+            
 				                    "<p class='band-founded'><span class='band-label'>Founded: </span>"+ bands.band[i].Datefounded +"</p>"+				                    
