@@ -8,15 +8,16 @@ using System.Web.UI.WebControls;
 namespace WcfService1
 {
     public partial class SongListing : System.Web.UI.Page
-    {
-        public String songJson = "";
+    { 
+        public string songJson = "";
+
         protected void Page_Load(object sender, EventArgs e)
         {
             String searchString = Request.QueryString["searchString"];
             if (!searchString.Equals("") && searchString != null)
-                songJson = "";
+                songJson = JSONGenerator.generateSongJSON();
             else
-                songJson = JSONGenerator.generateBandJSON();
+                songJson = JSONGenerator.generateSongJSON();
         }
     }
 }

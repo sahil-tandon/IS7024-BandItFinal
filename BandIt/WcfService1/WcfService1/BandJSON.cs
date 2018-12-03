@@ -70,6 +70,9 @@ namespace WcfService1
         private string duration;
         private string rating;
 
+        //JSON variable to associate the band name to the 
+        private string bandName;
+
         [System.Xml.Serialization.XmlElement("SongName")]
         public string SongName { get => songName; set => songName = value; }
 
@@ -78,5 +81,6 @@ namespace WcfService1
 
         [System.Xml.Serialization.XmlElement("Rating")]
         public string Rating { get => rating; set => rating = value; }
+        public string BandName { get => bandName; set => bandName = value; }
     }
 }
