@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Web;
 using System.Xml.Serialization;
 
@@ -17,8 +18,12 @@ namespace WcfService1
             BandsCollection bands = null;
 
             XmlSerializer serializer = new XmlSerializer(typeof(BandsCollection));
+            WebClient client = new WebClient();
+            Uri uri = HttpContext.Current.Request.Url;
+            String host = uri.Scheme + Uri.SchemeDelimiter + uri.Host + ":" + uri.Port;
+            Stream stream = client.OpenRead(host+"/BandSchema.xml");
+            StreamReader reader = new StreamReader(stream);
 
-            StreamReader reader = new StreamReader("BandSchema.xml");
             bands = (BandsCollection)serializer.Deserialize(reader);
       
             reader.Close();
