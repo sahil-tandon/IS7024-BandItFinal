@@ -34,6 +34,7 @@
       <Website>www.blacksabbath.com</Website>
       <Origin>England</Origin>
       <DateFounded>1968</DateFounded>
+	  <ImagePath>blacksabbath.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Into the void</SongName>
@@ -59,6 +60,7 @@
       <Website>www.coldplay.com</Website>
       <Origin>England</Origin>
       <DateFounded>1996</DateFounded>
+	  <ImagePath>coldplay.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Fix you</SongName>
@@ -84,6 +86,7 @@
       <Website>www.eagles.com</Website>
       <Origin>England</Origin>
       <DateFounded>1996</DateFounded>
+	  <ImagePath>eagles.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Heartache tonight</SongName>
@@ -109,6 +112,7 @@
       <Website>www.gojira-music.com</Website>
       <Origin>France</Origin>
       <DateFounded>1996</DateFounded>
+	  <ImagePath>gojira.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Flying whales</SongName>
@@ -134,6 +138,7 @@
       <Website>www.ledzeppelin.com</Website>
       <Origin>England</Origin>
       <DateFounded>1968</DateFounded>
+	  <ImagePath>ledzeppelin.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Flying whales</SongName>
@@ -159,6 +164,7 @@
       <Website>www.gojira-music.com</Website>
       <Origin>France</Origin>
       <DateFounded>1996</DateFounded>
+	  <ImagePath>gojira.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Flying whales</SongName>
@@ -184,6 +190,7 @@
       <Website>www.metallica.com</Website>
       <Origin>United States</Origin>
       <DateFounded>1981</DateFounded>
+	  <ImagePath>metallica.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Fade to black</SongName>
@@ -209,6 +216,7 @@
       <Website>www.nirvana.com</Website>
       <Origin>United States</Origin>
       <DateFounded>1987</DateFounded>
+	  <ImagePath>nirvana.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>About a Girl</SongName>
@@ -234,6 +242,7 @@
       <Website>www.pinkfloyd.com</Website>
       <Origin>England</Origin>
       <DateFounded>1965</DateFounded>
+	  <ImagePath>pinkfloyd.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>On The Turning Away</SongName>
@@ -259,6 +268,7 @@
       <Website>www.porcupinetree.com</Website>
       <Origin>England</Origin>
       <DateFounded>1987</DateFounded>
+	  <ImagePath>porcupinetree.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Don't hate me</SongName>
@@ -284,6 +294,7 @@
       <Website>www.queenonline.com</Website>
       <Origin>England</Origin>
       <DateFounded>1970</DateFounded>
+	  <ImagePath>queen.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>A Kind Of Magic</SongName>
@@ -309,6 +320,7 @@
       <Website>www.redhotchilipeppers.com</Website>
       <Origin>United States</Origin>
       <DateFounded>1983</DateFounded>
+	  <ImagePath>redhotchilipeppers.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Tell me baby</SongName>
@@ -317,7 +329,7 @@
         </SongDetails>
         <SongDetails>
           <SongName>Higher ground</SongName>
-          <Duration>2:52</Duration>
+          <Duration>2:52</Duration>ss
           <Rating>3.34</Rating>
         </SongDetails>
         <SongDetails>
@@ -334,6 +346,7 @@
       <Website>www.systemofadown.com</Website>
       <Origin>England</Origin>
       <DateFounded>1994</DateFounded>
+	  <ImagePath>systemofadown.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Chop Suey!</SongName>
@@ -359,6 +372,7 @@
       <Website>www.thebeatles.com</Website>
       <Origin>England</Origin>
       <DateFounded>1960</DateFounded>
+	  <ImagePath>thebeatles.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>A Hard Day's Night</SongName>
@@ -384,6 +398,7 @@
       <Website>www.thedoors.com</Website>
       <Origin>United States</Origin>
       <DateFounded>1965</DateFounded>
+	  <ImagePath>thedoors.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>Alabama Song</SongName>
@@ -409,6 +424,7 @@
       <Website>www.rollingstones.com</Website>
       <Origin>England</Origin>
       <DateFounded>1962</DateFounded>
+	  <ImagePath>therollingstones.jpg</ImagePath>
       <Songs>
         <SongDetails>
           <SongName>19th Nervous Breakdown</SongName>
