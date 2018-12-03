@@ -17,7 +17,7 @@ namespace WcfService1
             if (searchString == null)
                 songJson = JSONGenerator.generateSongJSON();
             else
-                songJson = JSONGenerator.generateSongJSON();
+                songJson = SearchUtility.SearchSongsbyBand(searchString);
         }
 
         protected void SearchSongs_Click(object sender, EventArgs e)

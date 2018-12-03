@@ -23,6 +23,20 @@ namespace WcfService1
 
         }
 
+        public static string SearchSongsbyBand(string searchString)
+        {
+            List<Songs> songs = JsonConvert.DeserializeObject<List<Songs>>(JSONGenerator.generateSongJSON());
+            List<Songs> searchResults = new List<Songs>();
+            foreach (Songs song in songs)
+            {
+
+                if ((song.BandName.IndexOf(searchString, StringComparison.CurrentCultureIgnoreCase)) > -1)
+                    searchResults.Add(song);
+            }
+
+            return JsonConvert.SerializeObject(searchResults);
+        }
+
         public static string SearchBands(string searchString)
         {
 
