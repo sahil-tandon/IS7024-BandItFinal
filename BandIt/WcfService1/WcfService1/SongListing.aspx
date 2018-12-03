@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="site.css" type="text/css"/>
     <link rel="stylesheet" href="css/print.css" type="text/css" media="print"/>
     <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)"/> 
-    <script>var songs = <%= songJson %>;</script>
+    <script>
+        var songs = <%= songJson %>;
+        var dateTime = <%= currentDateTimeString %>;
+    </script>
 </head>
 <body>    
         <nav class="header">
@@ -32,6 +35,7 @@
         <div class="body-content song-listing">
             <div class="container">
                 <h1 class="custom-head">MUSIC LIBRARY..</h1>
+                <div class="login-time">You visited this page at: <span class="time-value"></span></div>
                 <form id="form1" runat="server" class="search-form clear-fix">
                     <div class="form-group search-bar">
                         <asp:textbox runat="server" ID="SearchText" placeholder="Enter Song Name to Search" CssClass="form-control"></asp:textbox>                        

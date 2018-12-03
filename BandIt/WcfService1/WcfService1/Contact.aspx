@@ -29,48 +29,50 @@
         </nav>
     <div class="container contact-page clear-fix">    
         <h1 class="custom-head">GET IN TOUCH WITH US..</h1>
-
-        <div class="contact-us-tile">
-            <img class="contact-us-image" src="images/contact/Hasnain.png">
-            <div class="contact-us-info">
-                <p class="contact-us-name">Hasnain Kurawadwala</p>
-                <p class="contact-us-designation">Co-Founder</p>
-                <p class="contact-us-location">Cincinnati, OH</p>            
-                <p class="contact-us-phone">(513) 405-7929</p>
-                <a href="mailto:hasnainkurawadwala@bandit.com" class="contact-us-email">hasnainkurawadwala@bandit.com</a>
+        <div class="clear-fix">
+            <div class="contact-us-tile">
+                <img class="contact-us-image" src="images/contact/Hasnain.png">
+                <div class="contact-us-info">
+                    <p class="contact-us-name">Hasnain Kurawadwala</p>
+                    <p class="contact-us-designation">Co-Founder</p>
+                    <p class="contact-us-location">Cincinnati, OH</p>            
+                    <p class="contact-us-phone">(513) 405-7929</p>
+                    <a href="mailto:hasnainkurawadwala@bandit.com" class="contact-us-email">hasnainkurawadwala@bandit.com</a>
+                </div>
             </div>
-        </div>
         
-        <div class="contact-us-tile">
-            <img class="contact-us-image" src="images/contact/sahiltandon.jpg">
-            <div class="contact-us-info">
-                <p class="contact-us-name">Sahil Tandon</p>
-                <p class="contact-us-designation">Co-Founder</p>
-                <p class="contact-us-location">Cincinnati, OH</p>            
-                <p class="contact-us-phone">(513) 206-3185</p>
-                <a href="mailto:sahiltandon@bandit.com" class="contact-us-email">sahiltandon@bandit.com</a>
+            <div class="contact-us-tile">
+                <img class="contact-us-image" src="images/contact/sahiltandon.jpg">
+                <div class="contact-us-info">
+                    <p class="contact-us-name">Sahil Tandon</p>
+                    <p class="contact-us-designation">Co-Founder</p>
+                    <p class="contact-us-location">Cincinnati, OH</p>            
+                    <p class="contact-us-phone">(513) 206-3185</p>
+                    <a href="mailto:sahiltandon@bandit.com" class="contact-us-email">sahiltandon@bandit.com</a>
+                </div>
             </div>
         </div>
-
-        <div class="contact-us-tile">
-            <img class="contact-us-image" src="images/contact/Sidhartha.jpeg">
-            <div class="contact-us-info">
-                <p class="contact-us-name">Sidhartha Bora</p>
-                <p class="contact-us-designation">Co-Founder</p>
-                <p class="contact-us-location">Cincinnati, OH</p>            
-                <p class="contact-us-phone">(513) 206-4237</p>
-                <a href="mailto:sidharthabora@bandit.com" class="contact-us-email">sidharthabora@bandit.com</a>
+        <div class="clear-fix">
+            <div class="contact-us-tile">
+                <img class="contact-us-image" src="images/contact/Sidhartha.jpeg">
+                <div class="contact-us-info">
+                    <p class="contact-us-name">Sidhartha Bora</p>
+                    <p class="contact-us-designation">Co-Founder</p>
+                    <p class="contact-us-location">Cincinnati, OH</p>            
+                    <p class="contact-us-phone">(513) 206-4237</p>
+                    <a href="mailto:sidharthabora@bandit.com" class="contact-us-email">sidharthabora@bandit.com</a>
+                </div>
             </div>
-        </div>
 
-        <div class="contact-us-tile">
-            <img class="contact-us-image" src="images/contact/sudhakarsamak.jpg">
-            <div class="contact-us-info">
-                <p class="contact-us-name">Sudhakar Samak</p>
-                <p class="contact-us-designation">Co-Founder</p>
-                <p class="contact-us-location">Cincinnati, OH</p>
-                <p class="contact-us-phone">(513) 510-7397</p>
-                <a href="mailto:sudhakarsamak@bandit.com" class="contact-us-email">sudhakarsamak@bandit.com</a>            
+            <div class="contact-us-tile">
+                <img class="contact-us-image" src="images/contact/sudhakarsamak.jpg">
+                <div class="contact-us-info">
+                    <p class="contact-us-name">Sudhakar Samak</p>
+                    <p class="contact-us-designation">Co-Founder</p>
+                    <p class="contact-us-location">Cincinnati, OH</p>
+                    <p class="contact-us-phone">(513) 510-7397</p>
+                    <a href="mailto:sudhakarsamak@bandit.com" class="contact-us-email">sudhakarsamak@bandit.com</a>            
+                </div>
             </div>
         </div>
     </div>
