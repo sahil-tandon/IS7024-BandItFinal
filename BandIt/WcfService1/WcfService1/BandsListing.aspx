@@ -10,7 +10,8 @@
         <link rel="stylesheet" href="site.css" type="text/css"/>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
         <script>var bands = <%= bandJson %>;</script>
-        <script type="text/javascript" src="js/app.js"></script>
+        <script>var currentTime = <%= currentDateTimeString%>;</script>
+        <script type="text/javascript" src="js/app.js"></script> 
     </head>
     <body>
         <nav class="header">
