@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="site.css" type="text/css"/>
         <link rel="stylesheet" href="css/print.css" type="text/css" media="print"/>
         <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)"/>
+        <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
         <script>var bands = <%= bandJson %>;</script>
     </head>
     <body>        
