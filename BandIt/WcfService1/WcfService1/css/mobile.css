@@ -50,3 +50,17 @@
 .song-listing {
 	padding-bottom: 40px;
 }
+/*Contact Page*/
+.contact-page {
+	text-align: center;
+}
+.contact-us-tile {
+	width: 80%;
+	display: inline-block;
+	margin: 0;
+	float: none;
+}
+.contact-us-tile:nth-of-type(2n) {
+	margin: 20px 0;
+	float: none;
+}
