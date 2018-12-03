@@ -15,7 +15,17 @@
           <Duration>3.43</Duration>
           <Rating>4.1</Rating>
         </SongDetails>
-    </Songs>
+        <SongDetails>
+          <SongName>Blow Up Your Video</SongName>
+          <Duration>5:11</Duration>
+          <Rating>3.88</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Thunderstruck</SongName>
+          <Duration>4:10</Duration>
+          <Rating>4.12</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Black Sabbath</BandName>
@@ -24,6 +34,23 @@
       <Website>www.blacksabbath.com</Website>
       <Origin>England</Origin>
       <DateFounded>1968</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Into the void</SongName>
+          <Duration>7:33</Duration>
+          <Rating>3.45</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Paranoid</SongName>
+          <Duration>4:27</Duration>
+          <Rating>3.8</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>The Wizard</SongName>
+          <Duration>4:44</Duration>
+          <Rating>3.33</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Coldplay</BandName>
@@ -32,6 +59,23 @@
       <Website>www.coldplay.com</Website>
       <Origin>England</Origin>
       <DateFounded>1996</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Fix you</SongName>
+          <Duration>5:43</Duration>
+          <Rating>4.77</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>In My Place</SongName>
+          <Duration>3:44</Duration>
+          <Rating>4.0</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Yellow</SongName>
+          <Duration>4:46</Duration>
+          <Rating>3.37</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Eagles</BandName>
@@ -40,6 +84,23 @@
       <Website>www.eagles.com</Website>
       <Origin>England</Origin>
       <DateFounded>1996</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Heartache tonight</SongName>
+          <Duration>5:55</Duration>
+          <Rating>3.5</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>New Kid in Town</SongName>
+          <Duration>6:22</Duration>
+          <Rating>3.54</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Hotel California</SongName>
+          <Duration>5:15</Duration>
+          <Rating>4.97</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Gojira</BandName>
@@ -48,6 +109,23 @@
       <Website>www.gojira-music.com</Website>
       <Origin>France</Origin>
       <DateFounded>1996</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Flying whales</SongName>
+          <Duration>4:55</Duration>
+          <Rating>3.5</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>The gift of Guilt</SongName>
+          <Duration>4:22</Duration>
+          <Rating>3.54</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>The shooting star</SongName>
+          <Duration>3:15</Duration>
+          <Rating>4.97</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Led Zeppelin</BandName>
@@ -56,6 +134,23 @@
       <Website>www.ledzeppelin.com</Website>
       <Origin>England</Origin>
       <DateFounded>1968</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Flying whales</SongName>
+          <Duration>4:55</Duration>
+          <Rating>3.5</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>The gift of Guilt</SongName>
+          <Duration>4:22</Duration>
+          <Rating>3.54</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>The shooting star</SongName>
+          <Duration>3:15</Duration>
+          <Rating>4.97</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Gojira</BandName>
@@ -64,6 +159,23 @@
       <Website>www.gojira-music.com</Website>
       <Origin>France</Origin>
       <DateFounded>1996</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Flying whales</SongName>
+          <Duration>4:55</Duration>
+          <Rating>3.5</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>The gift of Guilt</SongName>
+          <Duration>4:22</Duration>
+          <Rating>3.54</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>The shooting star</SongName>
+          <Duration>3:15</Duration>
+          <Rating>4.97</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Metallica</BandName>
@@ -72,6 +184,23 @@
       <Website>www.metallica.com</Website>
       <Origin>United States</Origin>
       <DateFounded>1981</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Fade to black</SongName>
+          <Duration>3:55</Duration>
+          <Rating>4.5</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>For whom the bell tolls</SongName>
+          <Duration>5:11</Duration>
+          <Rating>3.85</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Nothing else matters</SongName>
+          <Duration>4:15</Duration>
+          <Rating>3.97</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Nirvana</BandName>
@@ -80,6 +209,23 @@
       <Website>www.nirvana.com</Website>
       <Origin>United States</Origin>
       <DateFounded>1987</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>About a Girl</SongName>
+          <Duration>4:25</Duration>
+          <Rating>3.9</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Blew</SongName>
+          <Duration>2:22</Duration>
+          <Rating>3.9</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Negative Creep</SongName>
+          <Duration>4:15</Duration>
+          <Rating>4.87</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Pink Floyd</BandName>
@@ -88,6 +234,23 @@
       <Website>www.pinkfloyd.com</Website>
       <Origin>England</Origin>
       <DateFounded>1965</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>On The Turning Away</SongName>
+          <Duration>6:55</Duration>
+          <Rating>3.8</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Signs of life</SongName>
+          <Duration>5:22</Duration>
+          <Rating>3.4</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Brain Damage</SongName>
+          <Duration>4:15</Duration>
+          <Rating>4.67</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Porcupine Tree</BandName>
@@ -96,6 +259,23 @@
       <Website>www.porcupinetree.com</Website>
       <Origin>England</Origin>
       <DateFounded>1987</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Don't hate me</SongName>
+          <Duration>4:09</Duration>
+          <Rating>3.8</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Russia on ice</SongName>
+          <Duration>3:62</Duration>
+          <Rating>4.54</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Time flies</SongName>
+          <Duration>4:15</Duration>
+          <Rating>4.7</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Queen</BandName>
@@ -104,6 +284,23 @@
       <Website>www.queenonline.com</Website>
       <Origin>England</Origin>
       <DateFounded>1970</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>A Kind Of Magic</SongName>
+          <Duration>4:33</Duration>
+          <Rating>3.7</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Made In Heaven</SongName>
+          <Duration>3:42</Duration>
+          <Rating>3.9</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Too Much Love Will Kill You</SongName>
+          <Duration>4:15</Duration>
+          <Rating>4.57</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>Red Hot Chili Peppers</BandName>
@@ -112,6 +309,23 @@
       <Website>www.redhotchilipeppers.com</Website>
       <Origin>United States</Origin>
       <DateFounded>1983</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Tell me baby</SongName>
+          <Duration>3:55</Duration>
+          <Rating>3.9</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Higher ground</SongName>
+          <Duration>2:52</Duration>
+          <Rating>3.34</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Can't stop</SongName>
+          <Duration>6:15</Duration>
+          <Rating>4.5</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>System of a Down</BandName>
@@ -120,6 +334,23 @@
       <Website>www.systemofadown.com</Website>
       <Origin>England</Origin>
       <DateFounded>1994</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Chop Suey!</SongName>
+          <Duration>3:55</Duration>
+          <Rating>4.5</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Toxicity</SongName>
+          <Duration>5:21</Duration>
+          <Rating>3.44</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Violent Pornography</SongName>
+          <Duration>2:15</Duration>
+          <Rating>4.3</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>The Beatles</BandName>
@@ -128,6 +359,23 @@
       <Website>www.thebeatles.com</Website>
       <Origin>England</Origin>
       <DateFounded>1960</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>A Hard Day's Night</SongName>
+          <Duration>4:55</Duration>
+          <Rating>3.2</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Let It Be</SongName>
+          <Duration>5:22</Duration>
+          <Rating>3.04</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Tell Me Why</SongName>
+          <Duration>5:16</Duration>
+          <Rating>4.27</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>The Doors</BandName>
@@ -136,6 +384,23 @@
       <Website>www.thedoors.com</Website>
       <Origin>United States</Origin>
       <DateFounded>1965</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>Alabama Song</SongName>
+          <Duration>3:55</Duration>
+          <Rating>3.6</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Been down so long</SongName>
+          <Duration>3:22</Duration>
+          <Rating>3.94</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Blue sunday</SongName>
+          <Duration>6:15</Duration>
+          <Rating>4.17</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
     <Band>
       <BandName>The Rolling Stones</BandName>
@@ -144,6 +409,23 @@
       <Website>www.rollingstones.com</Website>
       <Origin>England</Origin>
       <DateFounded>1962</DateFounded>
+      <Songs>
+        <SongDetails>
+          <SongName>19th Nervous Breakdown</SongName>
+          <Duration>3:55</Duration>
+          <Rating>4.5</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>As Tears Go By</SongName>
+          <Duration>3:22</Duration>
+          <Rating>5.54</Rating>
+        </SongDetails>
+        <SongDetails>
+          <SongName>Gimme Shelter</SongName>
+          <Duration>7:15</Duration>
+          <Rating>4.1</Rating>
+        </SongDetails>
+      </Songs>
     </Band>
   </Bands>
 </BandsCollection>
