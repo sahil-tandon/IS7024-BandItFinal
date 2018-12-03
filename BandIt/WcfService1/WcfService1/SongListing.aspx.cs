@@ -10,6 +10,7 @@ namespace WcfService1
     public partial class SongListing : System.Web.UI.Page
     { 
         public string songJson = "";
+        public string currentDateTimeString = "";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -18,6 +19,8 @@ namespace WcfService1
                 songJson = JSONGenerator.generateSongJSON();
             else
                 songJson = SearchUtility.SearchSongsbyBand(searchString);
+
+            currentDateTimeString = JSONGenerator.generateTimeString();
         }
 
         protected void SearchSongs_Click(object sender, EventArgs e)

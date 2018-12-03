@@ -40,4 +40,9 @@ $(document).ready(function(){
             $('.song-listing table tbody').append(songRow);
         }
     }
+
+    /*Populates page visit timestamp*/
+    if ($('.song-listing').length) {
+        $('.time-value').text(dateTime);
+    }
 });
