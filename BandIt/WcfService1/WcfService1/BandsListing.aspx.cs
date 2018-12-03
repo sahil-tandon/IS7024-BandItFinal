@@ -14,7 +14,6 @@ namespace WcfService1
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            String searchString = Request.QueryString["searchString"];
             bandJson = JSONGenerator.generateBandJSON();
             currentDateTimeString = JSONGenerator.generateTimeString();
 
@@ -23,10 +22,17 @@ namespace WcfService1
 
         protected void SearchButton_Click(object sender, EventArgs e)
         {
-            
+            if (SearchBand.Text == "")
+            {
+                bandJson = JSONGenerator.generateBandJSON();
+            }
+            else
+                bandJson = SearchUtility.SearchBands(SearchBand.Text);
         }
 
+        protected void TextBox1_TextChanged(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }

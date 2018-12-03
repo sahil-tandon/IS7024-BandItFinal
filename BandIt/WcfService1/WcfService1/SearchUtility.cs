@@ -14,8 +14,8 @@ namespace WcfService1
             List<Songs> songs = JsonConvert.DeserializeObject<List<Songs>>(JSONGenerator.generateSongJSON());
             List<Songs> searchResults = new List<Songs>();
             foreach (Songs song in songs) {
-
-                if (song.SongName.Contains(searchString))
+                
+                if ((song.SongName.IndexOf(searchString, StringComparison.CurrentCultureIgnoreCase))>-1)
                     searchResults.Add(song);
             }
 
