@@ -454,7 +454,7 @@ footer p {
 
 /* Search */
 .search-form {
-    margin-top: 40px!important;    
+    margin-top: 40px!important;      
 }
 .song-listing .search-form {
     margin-bottom: 20px;
@@ -466,6 +466,7 @@ footer p {
 .search-bar {
     width: calc(100% - 145px);
     float: left;
+    margin: 24px 0;
 }
 .search-btn {
     width: 125px;
@@ -478,8 +479,16 @@ footer p {
 }
 .search-btn .btn {
     width: 125px;
+    color: #333;
+    background: #fff;
+    border-color: #ccc;
 }
-
+.search-btn .btn:focus,
+.search-btn .btn:active,
+.search-btn .btn:hover {
+    background: #d4d4d4;
+    border-color: #8c8c8c;
+}
 /* Admin Page */
 .admin-items {
     margin-top: 40px;
