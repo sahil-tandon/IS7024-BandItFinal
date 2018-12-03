@@ -158,32 +158,6 @@
       </Songs>
     </Band>
     <Band>
-      <BandName>Gojira</BandName>
-      <Members>Christian Andreu, Joe Duplantier, Mario Duplantier and Jean-Michel Labadie</Members>
-      <Genre>Progressive Metal</Genre>
-      <Website>www.gojira-music.com</Website>
-      <Origin>France</Origin>
-      <DateFounded>1996</DateFounded>
-	  <ImagePath>gojira.jpg</ImagePath>
-      <Songs>
-        <SongDetails>
-          <SongName>Flying whales</SongName>
-          <Duration>4:55</Duration>
-          <Rating>3.5</Rating>
-        </SongDetails>
-        <SongDetails>
-          <SongName>The gift of Guilt</SongName>
-          <Duration>4:22</Duration>
-          <Rating>3.54</Rating>
-        </SongDetails>
-        <SongDetails>
-          <SongName>The shooting star</SongName>
-          <Duration>3:15</Duration>
-          <Rating>4.97</Rating>
-        </SongDetails>
-      </Songs>
-    </Band>
-    <Band>
       <BandName>Metallica</BandName>
       <Members>James Hetfield, Kirk Hammet, Lars Ulrich and Robert Trujillo</Members>
       <Genre>Heavy Metal/Thrash Metal</Genre>
