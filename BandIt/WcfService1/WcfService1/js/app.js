@@ -28,5 +28,16 @@ $(document).ready(function(){
         }
     }
 
+    /*Populates songs on Song Listing page using data from JSON*/
+    if ($('.song-listing').length) {
+        for (i = 0; i < songs.length; i++) {
+            var songRow = "<tr>" +
+                "<td><a target='_blank' href='https://www.youtube.com/results?search_query="+ songs[i].SongName +"'>"+ songs[i].SongName +"</a></td>" +
+                "<td>" + songs[i].Duration + "</td>" +
+                "<td>" + songs[i].Rating + "</td>" +
+                "<td>" + songs[i].BandName + "</td>" +
+                "</tr>";
+            $('.song-listing table tbody').append(songRow);
+        }
     }
 });
