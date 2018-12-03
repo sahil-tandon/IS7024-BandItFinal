@@ -538,6 +538,9 @@ footer p {
 }
 
 /* Contact Us */
+.contact-page {
+    padding-bottom: 40px;
+}
 .contact-us-tile {
     width: 25%;
     float: left;
@@ -555,7 +558,7 @@ footer p {
     width: 100%;
     padding: 10px;
 }
-.contact-us-tile:last-of-type {
+.contact-us-tile:nth-of-type(2n) {
     float: right;
     margin: 50px 15% 0 10%;
 }
