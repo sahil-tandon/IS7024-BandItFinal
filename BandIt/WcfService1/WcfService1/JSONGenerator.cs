@@ -72,7 +72,7 @@ namespace WcfService1
 
 
         /*
-        Service Method to deserialize the bands XML Schema and return a c# object
+        Utility Method to deserialize the bands XML Schema and return a c# object
         */
         private static BandsCollection DeserializeBandSchema() {
 
