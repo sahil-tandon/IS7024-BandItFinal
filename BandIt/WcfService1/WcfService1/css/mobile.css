@@ -1,0 +1,25 @@
+.nomobile {
+	display: none;
+}
+/*Home Page*/
+.item-copy {
+	font-size: 26px;
+	width: 80%;
+}
+.our-bands-list {
+	padding-top: 0;
+}
+.our-band, .see-all {
+	width: 80%;
+	margin: 0 10%;
+}
+.about-us {
+	padding-top: 0;
+}
+.about-item {
+	width: 100%;
+	padding: 0 20px;
+}
+.carousel-inner > .carousel-item > img {
+	height: 300px;
+}
