@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="site.css" type="text/css"/>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>    
     <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="header">
@@ -17,19 +18,41 @@
                 <a href="/BandsListing.aspx">Bands</a>
             </div>
             <div class="header-logo">
-                <a href="/"><img src="../images/bandit-logo.png"></a>
+                <a href="/"><img src="../images/bandit-logo.png" /></a>
             </div>
             <div class="header-right">
                 <a href="/SongListing.aspx">Songs</a>
             </div>
         </div>
     </nav>
-    <div id="myCarousel" class="noprint">
+    <div id="myCarousel" class="carousel slide noprint carousel-fade" data-ride="carousel" data-interval="3000">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
         <div class="carousel-inner">
-            <div class="item">
+            <div class="carousel-item active">
                 <img src="images/Concerts/carousel-1.jpg" alt="event-image" class="img-responsive"/>
+                <div class="item-copy">#1 Band Management Agency! 2 years in a row!</div>
             </div>
-        </div>        
+            <div class="carousel-item">
+                <img src="images/Concerts/carousel-2.jpg" alt="event-image" class="img-responsive"/>
+                <div class="item-copy">We help get your music an audience!</div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/Concerts/carousel-3.png" alt="event-image" class="img-responsive"/>
+                <div class="item-copy">We manage all your boring stuff so you can focus on the real deal!</div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
     <div class="container">        
         <div class="our-bands nomobile">
@@ -56,7 +79,7 @@
                     <span class="our-band-name">Coldplay</span>
                 </div>
                 <div class="see-all">                
-                    <a href="/BandListing.aspx">And More..</a>
+                    <a href="/BandsListing.aspx">And More..</a>
                 </div>
             </div>
         </div>
