@@ -32,7 +32,7 @@ $(document).ready(function(){
     if ($('.song-listing').length) {
         for (i = 0; i < songs.length; i++) {
             var songRow = "<tr>" +
-                "<td><a target='_blank' href='https://www.youtube.com/results?search_query="+ songs[i].SongName +"'>"+ songs[i].SongName +"</a></td>" +
+                "<td><a target='_blank' href='https://www.youtube.com/results?search_query=" + songs[i].SongName + " " + songs[i].BandName + "'>"+ songs[i].SongName +"</a></td>" +
                 "<td>" + songs[i].Duration + "</td>" +
                 "<td>" + songs[i].Rating + "</td>" +
                 "<td>" + songs[i].BandName + "</td>" +
