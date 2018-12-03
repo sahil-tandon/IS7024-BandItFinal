@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
-using System.Xml.Serialization;
+using System.Xml.Serialization; 
 
 namespace WcfService1
 {
@@ -32,5 +32,15 @@ namespace WcfService1
 
             return bandJson;
         }
+
+        public static string generateTimeString() {
+
+            DateTime currentDateTime = GetTimeService.GetLocalDateTime(39.1347212, -84.51388365493398, DateTime.UtcNow);
+            return JsonConvert.SerializeObject(currentDateTime);
+        }
+
+
     }
+
+
 }
