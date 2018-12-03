@@ -19,6 +19,7 @@
           <StartPageUrl>
           </StartPageUrl>
           <StartAction>CurrentPage</StartAction>
+          <StartPageUrl>Index.aspx</StartPageUrl>
           <AspNetDebugging>True</AspNetDebugging>
           <SilverlightDebugging>False</SilverlightDebugging>
           <NativeDebugging>False</NativeDebugging>
