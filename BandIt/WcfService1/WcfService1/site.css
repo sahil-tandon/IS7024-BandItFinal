@@ -194,7 +194,7 @@ footer p {
     text-decoration: none;
 }
 .about-us {
-    padding: 50px 0;
+    padding: 50px 0 30px 0;
     text-align: center;
 }
 .about-head {
@@ -227,6 +227,17 @@ footer p {
     color: #555;
     text-align: justify;
     padding-top: 10px;
+}
+.get-in-touch {
+    text-align: center;
+}
+.get-in-touch a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #212529;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    text-decoration: underline;
 }
 
 /* Band Listing Page */
@@ -538,6 +549,9 @@ footer p {
 }
 
 /* Contact Us */
+.contact-page {
+    padding-bottom: 40px;
+}
 .contact-us-tile {
     width: 25%;
     float: left;
@@ -555,7 +569,7 @@ footer p {
     width: 100%;
     padding: 10px;
 }
-.contact-us-tile:last-of-type {
+.contact-us-tile:nth-of-type(2n) {
     float: right;
     margin: 50px 15% 0 10%;
 }
