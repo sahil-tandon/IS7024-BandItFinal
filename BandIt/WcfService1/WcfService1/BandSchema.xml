@@ -8,10 +8,15 @@
       <Website>www.acdc.com</Website>
       <Origin>Australia</Origin>
       <DateFounded>1973</DateFounded>
+      <ImagePath>acdc.jpg</ImagePath>
       <Songs>
-        <SongName>Highway To Hell</SongName>
-        <SongName>Highway To Hell</SongName>
-      </Songs>
+        <SongDetails>
+          <SongName>Highway To Hell</SongName>
+          <Duration>3.43</Duration>
+          <Rating>4.1</Rating>
+        </SongDetails>
+
+    </Songs>
     </Band>
     <Band>
       <BandName>Black Sabbath</BandName>
