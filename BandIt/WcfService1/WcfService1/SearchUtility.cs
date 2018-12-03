@@ -30,7 +30,7 @@ namespace WcfService1
             List<BandJSON> searchResults = new List<BandJSON>();
             foreach (BandJSON band in bands.band)
             {
-                if (CaseContains(band.BandName, searchString, StringComparison.CurrentCultureIgnoreCase))
+                if (band.BandName.IndexOf(searchString, StringComparison.CurrentCultureIgnoreCase) != -1)
                     searchResults.Add(band);
             }
             BandsCollection result = new BandsCollection();
@@ -38,9 +38,6 @@ namespace WcfService1
             return JsonConvert.SerializeObject(result);
 
         }
-        public static bool CaseContains(string baseString, string textToSearch, StringComparison comparisonMode)
-        {
-            return (baseString.IndexOf(textToSearch, comparisonMode) != -1);
-        }
+
     }
 }
