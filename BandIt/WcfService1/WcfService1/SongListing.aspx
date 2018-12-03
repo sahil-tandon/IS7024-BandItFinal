@@ -19,7 +19,7 @@
                     <a href="/BandsListing.aspx">Bands</a>
                 </div>
                 <div class="header-logo">
-                    <a href="/"><img src="../images/bandit-logo.png"></a>
+                    <a href="/Index.aspx"><img src="../images/bandit-logo.png"></a>
                 </div>
                 <div class="header-right">
                     <a href="/SongListing.aspx">Songs</a>
