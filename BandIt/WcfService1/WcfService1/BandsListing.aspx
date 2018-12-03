@@ -17,13 +17,13 @@
         <nav class="header">
             <div class="container">
                 <div class="header-left">
-                    <a href="/BandListing">Bands</a>
+                    <a href="/BandsListing.aspx">Bands</a>
                 </div>
                 <div class="header-logo">
                     <a href="/"><img src="../images/bandit-logo.png"></a>
                 </div>
                 <div class="header-right">
-                    <a href="">Managers</a>
+                    <a href="/SongListing.aspx">Songs</a>
                 </div>
             </div>
         </nav>
