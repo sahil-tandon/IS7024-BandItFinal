@@ -24,11 +24,11 @@ body.collapsed {
     margin-top: 40px;
     letter-spacing: 0.05em;
 }
-.carousel-inner > .item > img {
+.carousel-inner > .carousel-item > img {
     height: 600px;
     object-fit: cover;
     width: 100%;
-    object-position: top;
+    backface-visibility: hidden;
 }
 hr {
     margin: 40px 0;
@@ -47,7 +47,7 @@ footer p {
     font-size: 20px;
     line-height: 1.4;
 }
-.carousel-inner .item img[src$=".svg"] {
+.carousel-inner .carousel-item img[src$=".svg"] {
     width: 100%;
 }
 
@@ -128,6 +128,21 @@ footer p {
 }
 
 /* Home Page */
+.carousel-item {
+    position: relative;
+}
+.item-copy {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    color: white;
+    font-size: 40px;
+    text-shadow: 4px 4px 2px black;
+    text-transform: uppercase;
+    transform: translate(-50%, -50%);
+}
 .our-bands {
     padding: 50px 0;
     text-align: center;
@@ -432,6 +447,7 @@ footer p {
 }
 .song-listing table th {
     border-width: 3px!important;
+    border-top: none;
 }
 .song-listing table th,
 .song-listing table td {
@@ -454,7 +470,7 @@ footer p {
 
 /* Search */
 .search-form {
-    margin-top: 40px!important;    
+    margin-top: 40px!important;      
 }
 .song-listing .search-form {
     margin-bottom: 20px;
@@ -466,6 +482,7 @@ footer p {
 .search-bar {
     width: calc(100% - 145px);
     float: left;
+    margin: 24px 0;
 }
 .search-btn {
     width: 125px;
@@ -473,13 +490,18 @@ footer p {
     margin: 24px 0;
     text-align: right;
 }
-.song-listing .search-btn {
-    margin: 0;
-}
 .search-btn .btn {
     width: 125px;
+    color: #333;
+    background: #fff;
+    border-color: #ccc;
 }
-
+.search-btn .btn:focus,
+.search-btn .btn:active,
+.search-btn .btn:hover {
+    background: #d4d4d4;
+    border-color: #8c8c8c;
+}
 /* Admin Page */
 .admin-items {
     margin-top: 40px;
@@ -516,6 +538,9 @@ footer p {
 }
 
 /* Contact Us */
+.contact-page {
+    padding-bottom: 40px;
+}
 .contact-us-tile {
     width: 25%;
     float: left;
@@ -533,7 +558,7 @@ footer p {
     width: 100%;
     padding: 10px;
 }
-.contact-us-tile:last-of-type {
+.contact-us-tile:nth-of-type(2n) {
     float: right;
     margin: 50px 15% 0 10%;
 }
