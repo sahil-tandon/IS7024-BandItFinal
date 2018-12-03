@@ -3,13 +3,13 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-<meta charset="utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BandIt</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="site.css" type="text/css"/>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>    
-    <script type="text/javascript" src="js/app.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/print.css" type="text/css" media="print"/>
+    <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)"/>    
 </head>
 <body>
     <nav class="header">
@@ -55,7 +55,7 @@
         </a>
     </div>
     <div class="container">        
-        <div class="our-bands nomobile">
+        <div class="our-bands">
             <h1 class="noprint">BANDIT</h1>
             <div class="our-bands-copy">
                 <em>We are behind the success of these big names..</em>
@@ -78,7 +78,7 @@
                     <img src="images/Bands/coldplay.jpg" alt="coldplay-image"/>
                     <span class="our-band-name">Coldplay</span>
                 </div>
-                <div class="see-all">                
+                <div class="see-all nomobile">                
                     <a href="/BandsListing.aspx">And More..</a>
                 </div>
             </div>
@@ -109,6 +109,9 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>        
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
