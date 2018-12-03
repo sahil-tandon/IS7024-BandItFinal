@@ -17,6 +17,7 @@
         <nav class="header">
             <div class="container">
                 <div class="header-left">
+                    <a class="nomobile" href="/Index.aspx">Home</a>
                     <a href="/BandsListing.aspx">Bands</a>
                 </div>
                 <div class="header-logo">
@@ -24,6 +25,7 @@
                 </div>
                 <div class="header-right">
                     <a href="/SongListing.aspx">Songs</a>
+                    <a class="nomobile" href="/Contact.aspx">Contact</a>
                 </div>
             </div>
         </nav>
