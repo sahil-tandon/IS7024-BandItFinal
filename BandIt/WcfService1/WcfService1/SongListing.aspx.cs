@@ -14,7 +14,7 @@ namespace WcfService1
         protected void Page_Load(object sender, EventArgs e)
         {
             String searchString = Request.QueryString["searchString"];
-            if (!searchString.Equals("") && searchString != null)
+            if (searchString == null)
                 songJson = JSONGenerator.generateSongJSON();
             else
                 songJson = JSONGenerator.generateSongJSON();
