@@ -13,18 +13,20 @@
 </head>
 <body>
     <nav class="header">
-        <div class="container">
-            <div class="header-left">
-                <a href="/BandsListing.aspx">Bands</a>
+            <div class="container">
+                <div class="header-left">
+                    <a class="nomobile" href="/Index.aspx">Home</a>
+                    <a href="/BandsListing.aspx">Bands</a>
+                </div>
+                <div class="header-logo">
+                    <a href="/Index.aspx"><img src="../images/bandit-logo.png"></a>
+                </div>
+                <div class="header-right">
+                    <a href="/SongListing.aspx">Songs</a>
+                    <a class="nomobile" href="/Contact.aspx">Contact</a>
+                </div>
             </div>
-            <div class="header-logo">
-                <a href="/Index.aspx"><img src="../images/bandit-logo.png" /></a>
-            </div>
-            <div class="header-right">
-                <a href="/SongListing.aspx">Songs</a>
-            </div>
-        </div>
-    </nav>
+        </nav>
     <div id="myCarousel" class="carousel slide noprint" data-ride="carousel" data-interval="3000">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -109,7 +111,10 @@
                 </div>
             </div>
         </div>
-    </div>
+        <div class="get-in-touch">
+            <a href="/Contact.aspx">Get in touch with us..</a>
+        </div>
+    </div>    
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>        
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/app.js"></script>
