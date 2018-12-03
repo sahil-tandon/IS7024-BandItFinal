@@ -25,7 +25,7 @@
             </div>
         </div>
     </nav>
-    <div id="myCarousel" class="carousel slide noprint carousel-fade" data-ride="carousel" data-interval="3000">
+    <div id="myCarousel" class="carousel slide noprint" data-ride="carousel" data-interval="3000">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
