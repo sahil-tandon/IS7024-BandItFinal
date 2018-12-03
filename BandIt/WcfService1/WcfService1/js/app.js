@@ -13,7 +13,7 @@ $(document).ready(function(){
     if ($('.band-listing').length) {
         for (i = 0; i < bands.band.length; i++){
     	    var bandTile = "<div class='band-tile'>"+
-    						    "<img src='images/bands/"+ bands.band[i].ImagePath +"' class='band-image'>"+
+                "<img src='images/bands/" + bands.band[i].ImagePath + "' class='band-image' alt='" + bands.band[i].BandName +" Image'>"+
     						    "<div class='band-info'>"+
     							    "<p class='band-name'>"+ bands.band[i].BandName +"</p>"+
     							    "<p class='band-genre'><span class='band-label'>Genre: </span>"+ bands.band[i].Genre +"</p>"+
