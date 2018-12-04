@@ -12,7 +12,17 @@
         <link rel="stylesheet" href="css/print.css" type="text/css" media="print"/>
         <link rel="stylesheet" href="css/mobile.css" type="text/css" media="screen and (max-device-width: 480px)"/>
         <link rel="icon" href="images/favicon.png" type="image/x-icon"/>
-        <script>var bands = <%= bandJson %>;</script>
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>        
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script>var bands = <%= bandJson %>;
+            var bandNames = <%= bandNames %>; 
+            $(function () {
+                $("#SearchBand").autocomplete({
+                    source: bandNames
+                });
+            });
+        </script>
     </head>
     <body>        
         <nav class="header">
@@ -47,7 +57,7 @@
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>        
+
         <script type="text/javascript" src="js/app.js"></script>
     </body>
 </html>

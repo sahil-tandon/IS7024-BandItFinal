@@ -1,6 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -30,6 +31,43 @@ namespace WcfService1
 
             }
 
+        }
+
+        /*
+        Method to Generate the BAND NAMES JSON and return the 
+        serialized String to the UI.
+        */
+        public static string generateBandNames() {
+
+            BandsCollection bands = DeserializeBandSchema();
+            List<string> bandNames = new List<string>();
+            foreach (BandJSON band in bands.band)
+            {
+                bandNames.Add(band.BandName);
+            }
+
+            return JsonConvert.SerializeObject(bandNames);
+        }
+
+        /*
+       Method to Generate the SONG NAMES JSON and return the 
+       serialized String to the UI.
+       */
+        public static string generateSongNames()
+        {
+
+            BandsCollection bands = DeserializeBandSchema();
+            List<string> songNames = new List<string>();
+            foreach (BandJSON band in bands.band)
+            {
+                foreach (Songs song in band.Songs)
+                {
+                    songNames.Add(song.SongName);
+
+                }
+            }
+
+            return JsonConvert.SerializeObject(songNames);
         }
 
         /*
@@ -98,7 +136,10 @@ namespace WcfService1
         public static string generateTimeString() {
 
             DateTime currentDateTime = GetTimeService.GetLocalDateTime(39.1347212, -84.51388365493398, DateTime.UtcNow);
-            return JsonConvert.SerializeObject(currentDateTime);
+
+            String time = (currentDateTime.TimeOfDay.Hours).ToString() + ":" + (currentDateTime.TimeOfDay.Minutes).ToString();
+
+            return JsonConvert.SerializeObject(time);
         }
 
     }
