@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,11 +11,12 @@ namespace WcfService1
     public partial class BandsListing : System.Web.UI.Page
     {
         public String bandJson = "";
+        public string bandNames = "";
 
         protected void Page_Load(object sender, EventArgs e)
         {
             bandJson = JSONGenerator.generateBandJSON();
-            
+            bandNames = JSONGenerator.generateBandNames();
 
 
         }

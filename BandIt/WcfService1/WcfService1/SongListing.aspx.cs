@@ -11,6 +11,7 @@ namespace WcfService1
     { 
         public string songJson = "";
         public string currentDateTimeString = "";
+        public string songNames = "";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -21,6 +22,7 @@ namespace WcfService1
                 songJson = SearchUtility.SearchSongsbyBand(searchString);
 
             currentDateTimeString = JSONGenerator.generateTimeString();
+            songNames = JSONGenerator.generateSongNames();
         }
 
         protected void SearchSongs_Click(object sender, EventArgs e)
